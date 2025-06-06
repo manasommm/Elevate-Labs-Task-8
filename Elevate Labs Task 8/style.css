@@ -1,0 +1,5 @@
+ body { background-color: linear-gradient(135deg, #d8eba6, #abdbed)};
+.blog-card { transition: box-shadow .3s; }
+.blog-card:hover { box-shadow: 0 4px 20px rgba(0,0,0,0.1); }
+.footer-social a { color: #495057; margin-right: 15px; }
+.footer-social a:hover { color: #b5d9e8; }

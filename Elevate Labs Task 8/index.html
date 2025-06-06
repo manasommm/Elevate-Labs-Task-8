@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Modern Bootstrap 5 Blog</title>
+  <!-- Bootstrap 5 CSS CDN -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Font Awesome for Social Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-light bg-white shadow-sm">
+  <div class="container">
+    <a class="navbar-brand fw-bold" href="#">MyBlog</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item"><a class="nav-link active" href="#">Home</a></li>
+        <li class="nav-item"><a class="nav-link" href="#">Categories</a></li>
+        <li class="nav-item"><a class="nav-link" href="#">About</a></li>
+        <li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- Hero Section -->
+<section class="py-5 text-center bg-primary text-white mb-4">
+  <div class="container">
+    <h1 class="display-5 fw-bold">Welcome to My Blog</h1>
+    <p class="lead mb-0">Insights, stories, and updates delivered with style.</p>
+  </div>
+</section>
+
+<!-- Blog Cards -->
+<div class="container mb-5">
+  <div class="row g-4">
+    <!-- Blog Post 1 -->
+    <div class="col-md-6 col-lg-4">
+      <div class="card blog-card h-100">
+        <img src="https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=400&q=80" class="card-img-top" alt="Nature Landscape">
+        <div class="card-body">
+          <h5 class="card-title">Exploring Nature's Wonders</h5>
+          <p class="card-text">Discover breathtaking landscapes and the beauty of the natural world in our latest travelogue.</p>
+          <a href="#" class="btn btn-primary">Read More</a>
+        </div>
+        <div class="card-footer text-muted small">Posted on June 6, 2025</div>
+      </div>
+    </div>
+    <!-- Blog Post 2 -->
+    <div class="col-md-6 col-lg-4">
+      <div class="card blog-card h-100">
+        <img src="https://images.unsplash.com/photo-1519389950473-47ba0277781c?auto=format&fit=crop&w=400&q=80" class="card-img-top" alt="Technology Workspace">
+        <div class="card-body">
+          <h5 class="card-title">Tech Trends 2025</h5>
+          <p class="card-text">Stay ahead with our analysis of the latest technology trends shaping the future.</p>
+          <a href="#" class="btn btn-primary">Read More</a>
+        </div>
+        <div class="card-footer text-muted small">Posted on June 4, 2025</div>
+      </div>
+    </div>
+    <!-- Blog Post 3 -->
+    <div class="col-md-6 col-lg-4">
+      <div class="card blog-card h-100">
+        <img src="https://images.unsplash.com/photo-1551218808-94e220e084d2?auto=format&fit=crop&w=400&q=80" class="card-img-top" alt="Delicious Healthy Food" style="height:278px; object-fit:cover; object-position:center;">
+         <div class="card-body">
+          <h5 class="card-title">Healthy Eating Habits</h5>
+          <p class="card-text">Tips and recipes for maintaining a balanced diet without sacrificing flavor.</p>
+          <a href="#" class="btn btn-primary">Read More</a>
+        </div>
+        <div class="card-footer text-muted small">Posted on June 2, 2025</div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Newsletter Signup -->
+<section class="bg-white py-4 mb-5 border-top border-bottom">
+  <div class="container text-center">
+    <h5 class="mb-3">Subscribe to our Newsletter</h5>
+    <form class="row justify-content-center g-2">
+      <div class="col-md-4">
+        <input type="email" class="form-control" placeholder="Enter your email" required>
+      </div>
+      <div class="col-md-auto">
+        <button type="submit" class="btn btn-primary">Subscribe</button>
+      </div>
+    </form>
+  </div>
+</section>
+
+<!-- Footer -->
+<footer class="bg-white text-center text-lg-start border-top pt-4">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-6 mb-3 mb-lg-0 text-lg-start">
+        <h6 class="fw-bold mb-2">MyBlog</h6>
+        <p class="mb-0 small">Sharing stories, ideas, and inspiration. © 2025</p>
+      </div>
+      <div class="col-lg-6 text-lg-end footer-social">
+        <a href="#"><i class="fab fa-facebook fa-lg"></i></a>
+        <a href="#"><i class="fab fa-twitter fa-lg"></i></a>
+        <a href="#"><i class="fab fa-instagram fa-lg"></i></a>
+        <a href="#"><i class="fab fa-linkedin fa-lg"></i></a>
+        <a href="#"><i class="fab fa-github fa-lg"></i></a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<!-- Bootstrap 5 JS CDN -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+<!-- Custom JS -->
+<script src="script.js"></script>
+</body>
+</html>
